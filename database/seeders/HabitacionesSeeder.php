@@ -13,6 +13,6 @@ class HabitacionesSeeder extends Seeder
      */
     public function run(): void
     {
-        Habitacion::factory()->count(100)->create();
+        Habitacion::factory()->count(500)->create();
     }
 }

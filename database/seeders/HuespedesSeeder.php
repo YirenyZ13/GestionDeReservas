@@ -14,6 +14,6 @@ class HuespedesSeeder extends Seeder
      */
     public function run(): void
     {
-        Huesped::factory()->count(100)->create();
+        Huesped::factory()->count(500)->create();
     }
 }
